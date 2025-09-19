@@ -55,51 +55,12 @@ header a:hover {
   border-radius: 5px;
 }
 
-header div{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
 header img {
   width: 80px;
   
 }
 
-#banner {
-  background: url(../img/banner_topo.jpg) no-repeat center center;
-  background-size: cover;
-}
 
-#banner h1 {
-  background: var(--primary);
-  color: var(--white);
-  text-transform: uppercase;
-  letter-spacing: 5px;
-}
-
-.title h1 {
-  text-align: center;
-  color: var(--primary);
-  margin: 50px;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-.title span {
-  color: var(--secundary);
-}
-
-.galeria {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
-}
-
-.galeria img {
-  width: 100%;
-  height: 250px;
-}
 
 .parallax {
   justify-content: center;

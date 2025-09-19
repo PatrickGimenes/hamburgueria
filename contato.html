@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="public/css/contato.css" />
+    <link rel="stylesheet" href="public/css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="./public/img/logo_h.gif"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Hamburguer</title>
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <img src="./public/img/logo_h.gif" alt="Logo" />
+        <nav>
+          <a href="">Home</a>
+          <a href="./cardapio.html">Cardápio</a>
+          <a href="">Galeria</a>
+          <a href="./contato.html" class="active">Contato</a>
+          <a href="">Localização</a>
+        </nav>
+      </header>
+
+      <section class="parallax" id="banner">
+        <div>
+          <p>Contato</p>
+        </div>
+      </section>
+
+      <section id="contato">
+        <form action="">
+          <div id="grid-contato">
+            <div>
+              <label for="nome">Nome</label>
+              <input
+                type="text"
+                id="nome"
+                name="nome"
+                placeholder="Qual seu nome?"
+              />
+            </div>
+
+            <div>
+              <label for="tel">Telefone</label>
+              <input
+                type="text"
+                id="tel"
+                name="tel"
+                placeholder="(99) 99999-9999"
+                pattern="[0-9][{2} [0-9]{5}-[4]{4}"
+              />
+            </div>
+
+            <div>
+              <label for="email">E-mail</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Qual o seu e-mail?"
+              />
+            </div>
+
+            <div>
+              <label for="assunto">Assunto</label>
+              <select name="assunto" id="assunto">
+                <option value="Selecione...">Selecione...</option>
+                <option value="Sugestão">Sugestão</option>
+                <option value="Reclamação">Reclamação</option>
+                <option value="Outros">Outros</option>
+              </select>
+            </div>
+
+
+            <div>
+                <label for="msg">Digite sua mensagem</label>
+                <textarea name="msg" id="msg"></textarea>
+            </div>
+
+            <div>
+                <input type="checkbox" name="news" id="news">
+                <label for="news">Receber promoções e novidades</label>
+            </div>
+          </div>
+
+          <input type="submit" value="Enviar">
+        </form>
+      </section>
+
+      <footer>
+        <div id="mapa">
+          <div>
+            <p>Páginas Principais</p>
+
+            <ul>
+              <li><a href="">Página Inicial</a></li>
+              <li><a href="">Cadápio</a></li>
+              <li><a href="">Galeria</a></li>
+              <li><a href="">Contato</a></li>
+              <li><a href="">Localização</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <p>Categorias de Produtos</p>
+
+            <ul>
+              <li><a href="">Gourmets</a></li>
+              <li><a href="">Tradicionais</a></li>
+              <li><a href="">Sobremesas</a></li>
+              <li><a href="">Drinks</a></li>
+              <li><a href="">Outros</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <p>Informações Adicionais</p>
+
+            <ul>
+              <li><a href="">Política de Privacidade</a></li>
+              <li><a href="">Termos de Uso</a></li>
+              <li><a href="">FAQ</a></li>
+              <li><a href="">Blog</a></li>
+              <li><a href="">Trabalhe Conosco</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div id="social">
+          <a href=""><i class="fa-brands fa-instagram fa-2xl"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+          <a href=""><i class="fa-brands fa-youtube fa-2xl"></i></a>
+        </div>
+
+        <div id="direitos">
+          <p>&copy; 2025 - Todos os direitos reservados</p>
+        </div>
+      </footer>
+    </div>
+
+    <a id="up" href="#"><i class="fa-solid fa-arrow-up fa-2xl"></i></a>
+  </body>
+</html>
